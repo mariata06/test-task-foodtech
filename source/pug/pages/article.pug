@@ -1,17 +1,15 @@
 extends ../components/base/layout
 
 block variables
-  - const title = "FoodTech - главная"
+  - const title = "FoodTech - статья"
   - const wrapperMods = ""
   - const hasHeader = false
   - const headerMods = ""
   - const hasFooter = false
   - const footerMods = ""
-  - const currentUrl = "index.html"
+  - const currentUrl = "article.html"
 
 block main
-  main.main-page
-    +support-banner()
-    +join-section()
-    +faq-slider()
-    +help-section()
+  main.article-page
+    +article()
+

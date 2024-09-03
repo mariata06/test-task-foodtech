@@ -1,0 +1,51 @@
+mixin faq-slider()
+  section.faq-slider
+    .container
+      h2.faq-slider__title.title.title--h2 Часто задаваемые вопросы
+      .swiper-container
+        .swiper-wrapper
+          a.swiper-slide(href="#delivery" aria-label="Где работает доставка?" target="_blank" rel="noopener noreferrer")
+            .slide-content
+              .slide-content__desc
+                h3.swiper-slide__title.title.title--h3 Где работает доставка?
+              img(src='img/slides/icon-bag.png' class="slide-content__img" alt='иконка сумки' aria-hidden="true")
+          a.swiper-slide(href="#delivery-1" aria-label="Где работает доставка?" target="_blank" rel="noopener noreferrer")
+            .slide-content
+              .slide-content__desc
+                h3.swiper-slide__title.title.title--h3 Где работает доставка?
+                p.swiper-slide__paragraph.text-muted Карта лояльности с&nbsp;вашим номером покупателя. Это карта лояльности с&nbsp;вашим
+          a.swiper-slide(href="#delivery-2" aria-label="Где работает доставка?" target="_blank" rel="noopener noreferrer")
+            .slide-content
+              .slide-content__desc
+                h3.swiper-slide__title.title.title--h3 Где работает доставка?
+                p.swiper-slide__paragraph.text-muted Карта лояльности с&nbsp;вашим номером
+              img(src='img/slides/icon-bag.png' class="slide-content__img" alt='иконка сумки' aria-hidden="true")
+          a.swiper-slide(href="#delivery-3" aria-label="Где работает доставка?" target="_blank" rel="noopener noreferrer")
+            .slide-content
+              .slide-content__desc
+                h3.swiper-slide__title.title.title--h3 В какое время возможен самовывоз В какое время возможен самовывоз?
+                p.swiper-slide__paragraph.text-muted Карта лояльности с&nbsp;вашим
+          a.swiper-slide(href="#delivery-4" aria-label="Где работает доставка?" target="_blank" rel="noopener noreferrer")
+            .slide-content
+              .slide-content__desc
+                h3.swiper-slide__title.title.title--h3 Где работает доставка?
+              img(src='img/slides/icon-bag.png' alt='иконка сумки' aria-hidden="true")
+          a.swiper-slide(href="#delivery-5" aria-label="Где работает доставка?" target="_blank" rel="noopener noreferrer")
+            .slide-content
+              .slide-content__desc
+                h3.swiper-slide__title.title.title--h3 Где работает доставка?
+                p.swiper-slide__paragraph.text-muted Карта лояльности с&nbsp;вашим номером покупателя. Это карта лояльности с&nbsp;вашим
+          a.swiper-slide(href="#delivery-6" aria-label="Где работает доставка?" target="_blank" rel="noopener noreferrer")
+            .slide-content
+              .slide-content__desc
+                h3.swiper-slide__title.title.title--h3 Где работает доставка?
+                p.swiper-slide__paragraph.text-muted Карта лояльности с&nbsp;вашим номером
+              img(src='img/slides/icon-bag.png' alt='иконка сумки' aria-hidden="true")
+          a.swiper-slide(href="#delivery-7" aria-label="Где работает доставка?" target="_blank" rel="noopener noreferrer")
+            .slide-content
+              .slide-content__desc
+                h3.swiper-slide__title.title.title--h3 В какое время возможен самовывоз В какое время возможен самовывоз?
+                p.swiper-slide__paragraph.text-muted Карта лояльности с&nbsp;вашим
+
+        .swiper-button-next.btn.btn--next(role="button" aria-label="Следующий слайд")
+          +icon("icon-arrow-right", 6, 11)

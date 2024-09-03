@@ -1,0 +1,13 @@
+.text-muted {
+  font-size: 15px;
+  line-height: 21px;
+  color: #949494;
+  font-weight: 400;
+}
+
+@media (max-width: 767px) {
+  .text-muted {
+    font-size: 13px;
+    line-height: 16px;
+  }
+}

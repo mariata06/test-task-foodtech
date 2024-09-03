@@ -1,18 +1,12 @@
 .btn {
   display: inline-flex;
-  padding: 10px 20px;
 
   color: $color-default-white;
 
-  background-color: $color-neon-blue;
   border: none;
   cursor: pointer;
 
   transition: opacity $trans-default;
-
-  &--red {
-    background-color: $color-torch-red;
-  }
 
   &:disabled {
     opacity: 0.5;
@@ -23,4 +17,87 @@
   @include hover-focus {
     opacity: 0.8;
   }
+}
+
+.btn--bg-white {
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 600;
+  width: 160px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background-color: #fff;
+  color: #1A1A1A;
+}
+
+.btn--bg-white svg {
+  margin-right: 6px;
+}
+
+.btn--bg-light-grey {
+  background-color: #F9F9F9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn--social {
+  border-radius: 13.33px;
+  width: 56px;
+  height: 56px;
+  padding: 0;
+}
+
+.btn--contact {
+  border-radius: 12px;
+  width: 48px;
+  height: 48px;
+}
+
+.btn--support svg {
+  color: #1A1A1A;
+}
+
+.btn--social svg {
+  color: #36BA5F;
+}
+
+.btn--share {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  padding: 0;
+}
+
+.btn--share svg {
+  color: #36BA5F;
+}
+
+.btn--bg-green {
+  background-color: #36BA5F;
+  min-width: 224px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.btn--support svg {
+  color: #1A1A1A;
+  margin-right: 5px;
+}
+
+.btn--next {
+  background-color: #fff;
+}
+
+.btn--next svg {
+  color: #1A1A1A;
 }

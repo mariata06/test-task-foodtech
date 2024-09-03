@@ -1,0 +1,22 @@
+mixin help-section()
+  section.help-section
+    .container
+      h2.help-section__title.title.title--h2 Справка
+      .help-section__wrapper
+        a.help-section__item(href="#gentle-assembly" aria-label="Бережная сборка")
+          h3.help-section__item-title.title.title--h3 Бережная сборка
+          +icon("icon-arrow-right", 6, 11)
+
+        a.help-section__item(href="#delivery-methods" aria-label="Способы доставки и самовывоза")
+          h3.help-section__item-title.title.title--h3 Способы доставки и самовывоза
+          p.help-section__paragraph.text-muted Это карта лояльности с вашим номером покупат Это карта <br> лояльности с вашим номером покупат
+          +icon("icon-arrow-right", 6, 11)
+
+        a.help-section__item(href="#minimum-order" aria-label="Минимальная сумма заказа")
+          h3.help-section__item-title.title.title--h3 Минимальная сумма заказа
+          +icon("icon-arrow-right", 6, 11)
+
+        a.help-section__item(href="#easy-return" aria-label="Лёгкий возврат")
+          h3.help-section__item-title.title.title--h3 Лёгкий возврат
+          p.help-section__paragraph.text-muted Это карта лояльности с вашим номером покупат Это карта <br> лояльности с вашим номером покупат
+          +icon("icon-arrow-right", 6, 11)

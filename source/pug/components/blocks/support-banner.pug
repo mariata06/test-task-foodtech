@@ -1,0 +1,21 @@
+mixin support-banner()
+  section.support-banner
+    .container
+      .support-banner__content.br-40
+        header
+          h1.support-banner__title.title.title--h1.support-banner__title Поддержка здесь
+        p.support-banner__paragraph Мы любим общаться и рады всем отзывам, вопросам и предложениям. Выберите удобный способ
+        .support-banner__buttons
+          .support-banner__buttons-list
+            button(type="button" class="btn btn--support btn--bg-white" aria-label="Онлайн-чат")
+              +icon("icon-message", 14, 13)
+              | Онлайн-чат
+            a(href="tel:+1234567890" class="btn btn--support btn--bg-white" aria-label="Позвонить")
+              +icon("icon-phone", 13, 13)
+              | Позвонить
+            a(href="mailto:support@example.com" class="btn btn--support btn--bg-white" aria-label="Написать на почту")
+              +icon("icon-email", 14, 11)
+              | Почта
+            a(href="#feedback" class="btn btn--support btn--bg-white" aria-label="Оставить отзыв о сайте")
+              +icon("icon-star", 18, 16)
+              | Отзыв о сайте
